@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 4.4rem;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: var(--bg-color);
+  z-index: 10;
+}
+.iconNav {
+  margin-top: 0.8rem;
+}
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--max-cont-width);
+}
+.logo {
+  color: var(--font-color);
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
