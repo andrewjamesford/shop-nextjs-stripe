@@ -9,9 +9,12 @@
   background-color: var(--bg-color);
   z-index: 10;
 }
-.iconNav {
-  margin-top: 0.8rem;
+
+.iconNav ul {
+  list-style: none;
+  display: flex;
 }
+
 .mainNav {
   display: flex;
   justify-content: space-between;
@@ -20,6 +23,25 @@
 }
 .logo {
   color: var(--font-color);
-  padding: 0 0.5rem;
   cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+}
+.searchIcon {
+  width: 1.5em;
+  height: 1.5em;
+  color: var(--icon-color);
+  margin-right: 0.5rem;
+}
+.cartIcon {
+  width: 1.5em;
+  height: 1.5em;
+  color: var(--icon-color);
+  margin-right: 0.5rem;
+}
+.menuIcon {
+  width: 1.5em;
+  height: 1.5em;
+  color: var(--icon-color);
+  margin-right: 0.5rem;
 }

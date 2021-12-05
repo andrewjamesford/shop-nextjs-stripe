@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--font-color);
+  color: #fff;
+  flex-direction: column;
+}
+.footerCont {
+  max-width: var(--max-cont-width);
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  width: 100%;
+}
+.footerNav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footerNav li {
+  padding: 0.3rem 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.copyright {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 0.6rem;
+}
