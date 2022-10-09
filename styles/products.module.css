@@ -1,0 +1,29 @@
+.link {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--primary-color);
+}
+.link:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}
+@media screen and (min-width: 50rem) {
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 70rem) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
