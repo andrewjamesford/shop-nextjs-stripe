@@ -21,6 +21,7 @@ export const Products = ({ products }) => {
                 priority={true}
               />
               <h2>{product.name}</h2>
+              <p>{product.description}</p>
               <a href="#" className={styles.link} onClick={handleAddToCart}>
                 Add To Cart
               </a>
