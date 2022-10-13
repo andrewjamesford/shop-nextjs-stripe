@@ -2,9 +2,10 @@
   --font-color: #111;
   --icon-color: #111;
   --bg-color: #fff;
-  --max-cont-width: 1000px;
+  --max-cont-width: 62.5rem;
   --primary-color: #222;
   --secondary-color: #ccc;
+  --border-color: #eaeaea;
 }
 
 html,
