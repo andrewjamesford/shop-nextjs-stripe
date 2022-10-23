@@ -11,3 +11,9 @@ STRIPE_PUBLISHABLE_KEY=
 STRIPE_SECRET_KEY=
 HOST=http://localhost:3000
 ```
+
+## Introduction
+
+<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/-3rN4US4xzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Article - Introduction](https://andrewford.co.nz/articles/shop-nextjs-stripe-introduction/)
